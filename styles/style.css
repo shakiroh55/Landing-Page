@@ -159,7 +159,7 @@ button {
 }
 
 .heroImage {
-  margin-top: -110px;
+  margin-top: -135px;
   padding: 50px;
   height: 150px;
   margin-left: 70px;
@@ -287,7 +287,6 @@ button {
   margin: 10px;
   margin-left: 1px;
   height: 20px;
-  width: 190px;
   padding-left: 50px ;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -466,6 +465,248 @@ td {
 table {
   column-width: 350px;
 }
+
+/*  ============mobile==========================*/
+@media (min-width: 350px) and (max-width: 375px){
+  /* ========Header */
+  .hamContainer {
+    justify-self: flex-end;
+    align-self: center;
+    margin-right: 60px;
+  }
+  .menuContainer{
+    height: 60%;
+    width: 100%;
+  }
+  .menuContainer i{
+    margin-right: 60px;
+    width: 20px;
+  }
+  /* =======section1======= */
+  .passion{
+    height: 900px;
+  }
+  .passionText h1{
+    margin-left: -42px;
+    width: 320px;
+  }
+  .passionText p{
+    margin-left: -37px;
+    width: 300px;
+    margin-top: 50px;
+  }
+  .toLearnContainer{
+    margin-top: 0px;
+    height: 80px;
+    width: 320px;
+    margin-left: 8px;
+  }
+  
+  .learn p{
+    line-height: normal;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .heroImage{
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  /* =======section3====== */
+  .hubby{
+  }
+  .avail{
+    margin-top: 10px;
+    padding-right: 50px;
+  }
+  .design {
+    background-color: rgb(232, 245, 238);
+    margin: 10px;
+    margin-left: 130px;
+    height: 20px;
+    width: 150px;
+    padding-left: 5px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .designIt{
+    background-color: rgb(232, 245, 238);
+    margin: 10px;
+    margin-left: 90px;
+    height: 20px;
+    width: 150px;
+    padding-left: 50px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .devBuss{
+    background-color: rgb(232, 245, 238);
+    margin: 10px;
+    margin-left: 90px;
+    height: 20px;
+    width: 150px;
+    padding-left: 50px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .dev {
+    background-color: rgb(246, 232, 241);
+    margin: 10px;
+    height: 20px;
+    width: 150px;
+    margin-left: 130px;
+    padding-left: 5px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .market {
+    background-color: rgb(252, 228, 226);
+    margin: 10px;
+    height: 20px;
+    width: 145px;
+    margin-left: 130px;
+    padding-left: 10px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .imagedev{
+    height: 100px;
+    margin: 100px;
+    /* margin-right: -150px; */
+    width: 100px;
+  }
+  .archi{
+    padding-left: -20px;
+    margin-left: 65px;
+    margin-right: 1px;
+    margin-top: 0px;
+    width: 200px;
+  }
+  .book{
+    padding-left: -20px;
+    margin-left: 65px;
+    margin-right: 1px;
+    margin-top: 0px;
+    width: 200px;
+    height: 70px;
+  }
+  .motion{
+    padding-left: 40px;
+    margin-top: 0px;
+  }
+
+  .archiImg{
+    margin-left:65px;
+    width: 155px;
+  }
+  .archiImg img{
+    width: 150px;
+
+  }
+  .extImg img{
+    width: 150px;
+    margin-left: 120px;
+  }
+  .motionImg img{
+    width: 150px;
+    margin-left: 50px;
+  }
+  .upg{
+    padding-left: 70px;
+  }
+  .upgImg img{
+    width: 150px;
+    margin-left: 50px;
+  }
+  .illusImg img{
+    width: 150px;
+    margin-left: 160px;
+  }
+  .illus{
+    width: 100px;
+    height: 120px;
+    padding-left: 150px;
+    margin-top: 0px;
+    margin-right: -10px;
+  }
+  .ext{
+    width: 100px;
+    height: 120px;
+    padding-left: 150px;
+    margin-top: 0px;
+    margin-right: -10px;
+  }
+  .bookImg{
+    margin-left:65px;
+    width: 155px;
+  }
+  .bookImg img{
+    width: 150px;
+  }
+  .illusImg{
+    margin-left: 15px;
+  }
+  .parentParent{
+    padding-right: 150px;
+    height: 570px;
+  }
+  .net{
+    padding-left: 2px;
+    padding-right: 3px;
+  }
+  .net h3{
+    font-size: 9px;
+  }
+  .feel, .stupid{
+    margin-right: 50px;
+    margin-left: -80px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .parentlastImage{
+    height: 550px;
+    margin-right: 50px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .result h3{
+    width: 250px;
+    padding-left: 20px;
+    
+  }
+  .result p{
+    width: 250px;
+    padding-left: 20px;
+  }
+  .result button{
+    margin-left: 80px;
+  }
+  .lastTable {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 350px;
+  }
+  th {
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgba(0, 0, 0, 0.795);
+  }
+  td {
+    padding: 5px;
+    padding-: 20px 10px 20px 15px;
+    color: grey;
+  }
+  table {
+    column-width: 350px;
+  }
+  .icon {
+    margin-left: 10px;
+    padding-left: 2px;
+  }
+}
+
 
 /*  ============Desktop==========================*/
 @media only screen and (min-width: 1100px) {
@@ -743,3 +984,4 @@ table {
     column-width: 350px;
   }
 }
+
