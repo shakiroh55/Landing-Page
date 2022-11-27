@@ -501,7 +501,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background: rgb(37, 153, 202);
-    background-color: black;
+    /* background-color: black; */
     padding: 15px 0;
   }
   .logoImage a {
@@ -598,7 +598,7 @@ body {
   }
   /* ====================section1============== */
   .passion {
-    height: 720px;
+    height: 820px;
     background-color: rgb(45, 165, 213);
     padding-top: 50px;
     padding-left: 30px;
@@ -890,7 +890,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 100px;
-    height: 800px;
+    height: 850px;
     padding-bottom: 50px;
   }
   .lastImage img {
@@ -929,17 +929,23 @@ body {
     flex-direction: column-reverse;
     margin-top: 50px;
   }
+  table{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   td {
     padding: 15px 5px 10px 5px;
-    font-size: smaller;
+    font-size: 10;
   }
   th {
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 10px;
   }
   .lastCrew {
     padding: 10px;
+    font-size: 10px;
   }
   .icon {
     display: flex;
